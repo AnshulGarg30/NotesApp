@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "143174140657",
+    "firebase_url": "https://socialloginlist.firebaseio.com",
+    "project_id": "socialloginlist",
+    "storage_bucket": "socialloginlist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143174140657:android:1096de9cf2ef5d8472df50",
+        "android_client_info": {
+          "package_name": "com.android.callrecording_interview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143174140657-opi7dd5bgo9loft4lujf5u0o2bu5cofb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.callrecording_interview",
+            "certificate_hash": "d34ccd8949108d678fa7bf6ea4910eadc1aa9c7d"
+          }
+        },
+        {
+          "client_id": "143174140657-14g61qds6d3bf95p3g8dqqpobj9fbtjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.callrecording_interview",
+            "certificate_hash": "f63516df0f7aee2be73ce5eb942099065f0e941a"
+          }
+        },
+        {
+          "client_id": "143174140657-hlkom2idh8hnl9l43m1273evkotf5gbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaQ9ws0yK7IOhprGfXZQh5A3BiDlJKTMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143174140657-hlkom2idh8hnl9l43m1273evkotf5gbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143174140657:android:5170505e86aa7b0672df50",
+        "android_client_info": {
+          "package_name": "com.example.tiktok_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143174140657-hlkom2idh8hnl9l43m1273evkotf5gbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaQ9ws0yK7IOhprGfXZQh5A3BiDlJKTMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143174140657-hlkom2idh8hnl9l43m1273evkotf5gbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143174140657:android:a208a94c641fdf1c72df50",
+        "android_client_info": {
+          "package_name": "com.test.notesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143174140657-06c18mt12p0fu4jpghfm74kbadg28cl2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.test.notesapp",
+            "certificate_hash": "dcb99acb571bade1043eb520d6aa0886fd8b5b03"
+          }
+        },
+        {
+          "client_id": "143174140657-hlkom2idh8hnl9l43m1273evkotf5gbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaQ9ws0yK7IOhprGfXZQh5A3BiDlJKTMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143174140657-hlkom2idh8hnl9l43m1273evkotf5gbe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

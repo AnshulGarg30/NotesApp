@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.Notes_Fragment">
+
+        <RelativeLayout
+            android:id="@+id/rl_topbar"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="52dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/robotomedium"
+            android:id="@+id/tvname"/>
+
+            <ImageView
+                android:id="@+id/iv_logout"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_logout"
+                android:layout_alignParentRight="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+        </RelativeLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/ic_plus"
+        android:background="@color/colorPrimary"
+        />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/rl_topbar"
+        android:layout_marginTop="10dp"
+        android:id="@+id/rv_notes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/item_note" />
+
+</RelativeLayout>
